@@ -57,6 +57,7 @@ export default function CompanySection() {
                 height={1000}
                 objectFit="cover"
                 isZoomed
+                loading="lazy"
               />
             </div>
           </article>
@@ -112,6 +113,7 @@ export default function CompanySection() {
                 height={1000}
                 objectFit="cover"
                 isZoomed
+                loading="lazy"
               />
             </div>
           </article>
