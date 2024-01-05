@@ -17,7 +17,7 @@ export default function Services() {
   };
   return (
     <>
-      {/* <HeroScene /> */}
+      <HeroScene />
       <section className="relative h-screen flex justify-center items-center">
         <div className="z-10 mx-10 text-center">
           <h4 className="">Explore our services</h4>
@@ -57,7 +57,6 @@ export default function Services() {
               src="ex-service.png"
               alt="Project 1"
               layout="fill"
-              objectFit="cover"
               width={400}
               loading="lazy"
             />
@@ -85,7 +84,6 @@ export default function Services() {
               src="ex-service.png"
               alt="Project 1"
               layout="fill"
-              objectFit="cover"
               width={400}
               loading="lazy"
             />
@@ -112,7 +110,6 @@ export default function Services() {
               src="ex-service.png"
               alt="Project 1"
               layout="fill"
-              objectFit="cover"
               width={400}
               loading="lazy"
             />
@@ -139,7 +136,6 @@ export default function Services() {
               src="ex-service.png"
               alt="Project 1"
               layout="fill"
-              objectFit="cover"
               width={400}
               loading="lazy"
             />

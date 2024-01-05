@@ -58,7 +58,6 @@ export default function CompanySection() {
                 src="/marcin-hor.webp"
                 width={1000}
                 height={1000}
-                objectFit="cover"
                 isZoomed
                 loading="lazy"
               />
@@ -117,7 +116,6 @@ export default function CompanySection() {
                 src="/henry-hor.webp"
                 width={1000}
                 height={1000}
-                objectFit="cover"
                 isZoomed
                 loading="lazy"
               />

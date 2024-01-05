@@ -68,7 +68,7 @@ export default function About() {
                 alt="Project 1"
                 layout="intrinsic"
                 width={150}
-                objectFit="cover"
+                objectfit="cover"
               />
             </div>
           ))}
