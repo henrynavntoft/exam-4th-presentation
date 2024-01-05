@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/ClashDisplay-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/ClashDisplay-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: url("/Supreme-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: url("/Supreme-MediumItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: url("/Supreme-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+
+.dark {
+  --text-stroke-color: #fef7f6;
+}
+
+.light {
+  --text-stroke-color: #232220;
+}
+
+:root {
+  --light: #fef7f6;
+  --dark: #232220;
+  --pink: #f4a5b7;
+  --light-pink: #fac1ce;
+  --satuated-pink: #f31260;
+  --sphere-accent: #71c9ee;
+}
+
+@layer base {
+  .font-outline {
+    -webkit-text-stroke: 0.01em var(--text-stroke-color);
+    color: transparent;
+  }
+}
+
+body {
+  font-family: "Supreme", sans-serif;
+  font-size: 16px;
+}
+
+section {
+  padding: 2.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "ClashDisplay", sans-serif;
+}
+
+h1 {
+  font-size: 128px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--satuated-pink);
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.logo {
+  font-family: "ClashDisplay", sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 200px;
+}
+
+.footer {
+  font-family: "ClashDisplay", sans-serif;
+  font-weight: bold;
+  font-size: 160px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media (max-width: 799px) {
+  body {
+    font-family: "Supreme", sans-serif;
+    font-size: 14px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "ClashDisplay", sans-serif;
+  }
+
+  h1 {
+    font-size: 54px;
+    line-height: 1;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--satuated-pink);
+  }
+
+  h5 {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  h6 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .logo {
+    font-family: "ClashDisplay", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 80px;
+  }
+
+  .footer {
+    font-family: "ClashDisplay", sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+}
+
+.hover-effect::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--pink);
+  z-index: -1;
+  transition: transform 0.7s ease;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+
+.hover-effect:hover::before {
+  transform: scaleY(1);
+  transform-origin: bottom;
+}
