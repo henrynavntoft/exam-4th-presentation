@@ -28,6 +28,7 @@ export default function PortfolioSection() {
               alt="Project 1"
               layout="fill"
               objectFit="cover"
+              loading="lazy"
             />
           </div>
           <div>
@@ -36,6 +37,7 @@ export default function PortfolioSection() {
               alt="Project 2"
               layout="fill"
               objectFit="cover"
+              loading="lazy"
             />
           </div>
           <div>
@@ -44,6 +46,7 @@ export default function PortfolioSection() {
               alt="Project 3"
               layout="fill"
               objectFit="cover"
+              loading="lazy"
             />
           </div>
           <div>
@@ -52,6 +55,7 @@ export default function PortfolioSection() {
               alt="Project 4"
               layout="fill"
               objectFit="cover"
+              loading="lazy"
             />
           </div>
         </div>

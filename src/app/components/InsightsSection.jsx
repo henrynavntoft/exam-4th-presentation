@@ -51,7 +51,12 @@ export default function InsightsSection() {
               href={"/"}
               className="flex flex-col justify-center items-center"
             >
-              <Image alt="" src="/Workshop_1.png" layout="fill" />
+              <Image
+                alt=""
+                src="/Workshop_1.png"
+                layout="fill"
+                loading="lazy"
+              />
               <p className="">Creative coding workshop</p>
               <p>by Henry Navntoft</p>
             </Link>
@@ -59,7 +64,12 @@ export default function InsightsSection() {
               href={"/"}
               className="flex flex-col justify-center items-center"
             >
-              <Image alt="" src="/Workshop_2.png" layout="fill" />
+              <Image
+                alt=""
+                src="/Workshop_2.png"
+                layout="fill"
+                loading="lazy"
+              />
               <p className="">3D with spline</p>
               <p>by Marcin Grygo</p>
             </Link>
@@ -67,7 +77,12 @@ export default function InsightsSection() {
               href={"/"}
               className="flex flex-col justify-center items-center"
             >
-              <Image alt="" src="/Workshop_3.png" layout="fill" />
+              <Image
+                alt=""
+                src="/Workshop_3.png"
+                layout="fill"
+                loading="lazy"
+              />
               <p className="">AI as graphic designer</p>
               <p>by Henry Navntoft & Marcin Grygo</p>
             </Link>

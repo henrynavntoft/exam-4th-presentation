@@ -25,6 +25,7 @@ export default function CompanySection() {
                     src="linkedin.svg"
                     width={30}
                     height={30}
+                    loading="lazy"
                   />
                 </Link>
                 <Link href={"/"}>
@@ -35,6 +36,7 @@ export default function CompanySection() {
                     src="be.svg"
                     width={30}
                     height={30}
+                    loading="lazy"
                   />
                 </Link>
                 <Link href={"/"}>
@@ -45,6 +47,7 @@ export default function CompanySection() {
                     src="web.svg"
                     width={30}
                     height={30}
+                    loading="lazy"
                   />
                 </Link>
               </div>
@@ -52,7 +55,7 @@ export default function CompanySection() {
             <div className="flex-1">
               <Image
                 alt=""
-                src="/marcin-hor.jpg"
+                src="/marcin-hor.webp"
                 width={1000}
                 height={1000}
                 objectFit="cover"
@@ -80,6 +83,7 @@ export default function CompanySection() {
                     src="linkedin.svg"
                     width={30}
                     height={30}
+                    loading="lazy"
                   />
                 </Link>
                 <Link href={"/"}>
@@ -90,6 +94,7 @@ export default function CompanySection() {
                     src="github-mark.svg"
                     width={30}
                     height={30}
+                    loading="lazy"
                   />
                 </Link>
                 <Link href={"/"}>
@@ -100,6 +105,7 @@ export default function CompanySection() {
                     src="web.svg"
                     width={30}
                     height={30}
+                    loading="lazy"
                   />
                 </Link>
               </div>
@@ -108,7 +114,7 @@ export default function CompanySection() {
             <div className="flex-1">
               <Image
                 alt=""
-                src="/henry-hor.jpg"
+                src="/henry-hor.webp"
                 width={1000}
                 height={1000}
                 objectFit="cover"

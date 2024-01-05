@@ -59,6 +59,7 @@ export default function Services() {
               layout="fill"
               objectFit="cover"
               width={400}
+              loading="lazy"
             />
           </div>
         </article>
@@ -86,6 +87,7 @@ export default function Services() {
               layout="fill"
               objectFit="cover"
               width={400}
+              loading="lazy"
             />
           </div>
         </article>
@@ -112,6 +114,7 @@ export default function Services() {
               layout="fill"
               objectFit="cover"
               width={400}
+              loading="lazy"
             />
           </div>
         </article>
@@ -138,6 +141,7 @@ export default function Services() {
               layout="fill"
               objectFit="cover"
               width={400}
+              loading="lazy"
             />
           </div>
         </article>

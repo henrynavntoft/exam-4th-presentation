@@ -76,6 +76,7 @@ export default function Footer() {
                     width={30}
                     height={30}
                     alt=""
+                    loading="lazy"
                   />
                 </Link>
                 <Link href={"/"}>
@@ -86,6 +87,7 @@ export default function Footer() {
                     width={30}
                     height={30}
                     alt=""
+                    loading="lazy"
                   />
                 </Link>
                 <Link href={"/"}>
@@ -96,6 +98,7 @@ export default function Footer() {
                     width={30}
                     height={30}
                     alt=""
+                    loading="lazy"
                   />
                 </Link>
               </div>
@@ -109,6 +112,7 @@ export default function Footer() {
                     alt=""
                     className="dark:invert"
                     radius="none"
+                    loading="lazy"
                   />
                 </Link>
                 <Link href={"/"} className="flex flex-col">
@@ -120,6 +124,7 @@ export default function Footer() {
                     alt=""
                     className="dark:invert"
                     radius="none"
+                    loading="lazy"
                   />
                 </Link>
               </div>
