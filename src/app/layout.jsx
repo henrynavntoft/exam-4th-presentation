@@ -3,6 +3,7 @@ import { Providers } from "./providers";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "4th Semester Exam Presentation Update",
