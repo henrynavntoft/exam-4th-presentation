@@ -126,7 +126,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <form className="flex flex-col flex-1 gap-6" onSubmit={""}>
+        <form className="flex flex-col flex-1 gap-6" onSubmit={"/"}>
           <div className="flex flex-col sm:flex-row gap-4">
             <Input
               name="name"
