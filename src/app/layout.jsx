@@ -14,11 +14,11 @@ export default function RootLayout({ children }) {
     <html lang="en" className="text-foreground bg-background">
       <body>
         <Providers>
-          <SpeedInsights />
           <Header />
           {children}
           <Footer />
         </Providers>
+        <SpeedInsights />
       </body>
     </html>
   );
